@@ -1,0 +1,12 @@
+import numpy
+
+def arrays(arr):
+    res = arr[::-1] 
+    res = numpy.array([float(x) for x in res])
+    return(res)
+
+
+
+arr = input().strip().split(' ')
+result = arrays(arr)
+print(result)
